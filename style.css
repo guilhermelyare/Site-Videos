@@ -1,0 +1,103 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --cor1: #593954;
+    --cor2: #013440;
+    --cor3: #026873;
+    --cor4: #038C7F;
+    --cor5: #038C8C;
+
+    --font-menu: 'Smooch Sans', sans-serif;;
+    --font-titulo: 'Poppins', monospace;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #59395467;
+}
+
+header > img {
+    display: inline;
+    width: 20px;
+}
+
+header > h1 {
+    font-family: var(--font-titulo);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+}
+
+header { 
+    height: 100px;
+    background-image: linear-gradient(to top, var(--cor4), var(--cor2));
+}
+
+nav {
+    background-image: linear-gradient(to top, var(--cor5), var(--cor4));
+    padding: 5px;
+}
+
+nav > a {
+    margin-left: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--cor2);
+    font-family: var(--font-titulo);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+    font-weight: bolder;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    padding: 3px 15px;
+    background-color: var(--cor2);
+    color: var(--cor4);
+    border-radius: 5px;
+}
+
+main {
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px 0px;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+
+
+main img {
+    width: 300px;
+}
+
+footer {
+    background-color: #593954c4;
+    color: white;
+    margin-top: 212px;
+}
+
+footer > p {
+    font-family: var(--font-menu);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+footer  a:hover {
+    text-decoration: underline;
+}
+
