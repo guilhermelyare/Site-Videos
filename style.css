@@ -20,11 +20,6 @@
 
 body {
     background-color: #195a8a;
-    background-image: url('Flexible-Electronics-Background.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 nav {
